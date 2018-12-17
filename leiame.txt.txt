@@ -1,0 +1,11 @@
+tspdl: arquivo com a implementação da classe do problema para ser reaproveitado em todas as implementações de heuristicas. passe o nome da instância no construtor e configure dentro do arquivo o caminho da sua base de dados que ele vai abrir o arquivo e carregar todos os dados para as variáveis de nomes iguais aos que estão no arquivo(só que primeira letra minuscula.). Nele também está os métodos para gerar solução gulosa (pois várias heuristicas precisam) e para fazer a busca local.
+
+greed: arquivo que executa e gera a solução gulosa, passe como entrada a lista das instâncias que ele vai gerar um por um os resultados
+
+busca: mesma coisa só que faz a busca local
+
+antco: algorítmo que usa a heuristica da colonia de formigas, os parametros estão definidos em diretivas do pré compilador no início do arquivo, também cria um arquivo log com algumas informações da execução
+
+main: antigo, não funciona
+
+main_f: antigo funciona
